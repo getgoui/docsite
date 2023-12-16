@@ -24,6 +24,7 @@
     "markdown-it": "^13.0.1",
     "markdown-it-meta": "^0.0.1",
     "markdown-it-title": "^4.0.0",
+    "nanospinner": "^1.1.0",
     "nuxt": "^3.8.1",
     "sass": "^1.69.5",
     "typescript": "^5.2.2",
