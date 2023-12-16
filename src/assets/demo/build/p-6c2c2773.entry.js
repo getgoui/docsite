@@ -1,0 +1,2 @@
+import{r,h as o,H as a}from"./p-797021b3.js";const s="go-dropdown-separator{--dd-separator-line-color:var(--go-color-neutral-300);display:block}go-dropdown-separator hr{border:none;border-top:0.0625rem solid var(--dd-separator-line-color)}";const e=class{constructor(o){r(this,o)}render(){return o(a,null,o("hr",null))}};e.style=s;export{e as go_dropdown_separator};
+//# sourceMappingURL=p-6c2c2773.entry.js.map

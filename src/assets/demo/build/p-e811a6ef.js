@@ -1,0 +1,2 @@
+import{h as r}from"./p-797021b3.js";function n(n){if(!n){return null}if(typeof n==="string"){return r("go-icon",{name:n})}return r("go-icon",Object.assign({},n))}export{n as r};
+//# sourceMappingURL=p-e811a6ef.js.map

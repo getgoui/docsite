@@ -1,0 +1,2 @@
+import{r as t,h as e,H as s,g as r}from"./p-797021b3.js";const i="go-center{display:grid;width:100%;height:100%;place-items:center}go-center.align-text{text-align:center}";const n=class{constructor(e){t(this,e);this.height="auto";this.alignText=false}render(){return e(s,{class:{"align-text":this.alignText},style:{height:this.height}},e("slot",null))}get el(){return r(this)}};n.style=i;export{n as go_center};
+//# sourceMappingURL=p-688dc8c4.entry.js.map

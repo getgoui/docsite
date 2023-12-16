@@ -1,0 +1,2 @@
+import{r as t,h as e,H as a,g as n}from"./p-797021b3.js";const s="go-tab{display:none}go-tab.active{display:block}";const i=class{constructor(e){t(this,e);this.label=undefined;this.active=undefined;this.tabId=undefined;this.panelId=undefined}componentWillLoad(){}render(){const{panelId:t,tabId:n,active:s}=this;return e(a,{tabindex:"0",role:"tabpanel",id:t,"aria-labelledby":n,class:{"tab-panel":true,active:s}},e("slot",null))}get el(){return n(this)}};i.style=s;export{i as go_tab};
+//# sourceMappingURL=p-8cce64a0.entry.js.map
