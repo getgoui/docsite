@@ -28,8 +28,8 @@ export default defineNuxtConfig({
           defer: true,
         },
         {
-          src: "https://cdn.jsdelivr.net/npm/@go-ui/demo-frame@latest",
-          defer: true,
+          src: "https://cdn.jsdelivr.net/npm/@go-ui/demo-frame@latest/dist/demo-frame/demo-frame.esm.js",
+          type: "module",
         },
       ],
     },
