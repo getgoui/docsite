@@ -28,10 +28,15 @@ export default defineNuxtConfig({
           defer: true,
         },
         {
-          src: "https://cdn.jsdelivr.net/npm/@go-ui/demo-frame@latest/dist/demo-frame/demo-frame.esm.js",
+          src: "https://cdn.jsdelivr.net/npm/@go-ui/demo-frame@0.1/dist/demo-frame/demo-frame.esm.js",
           type: "module",
         },
       ],
+    },
+  },
+  vue: {
+    compilerOptions: {
+      isCustomElement: (tag) => ["go-playground"].includes(tag),
     },
   },
   css: ["@go-ui/vue/dist/go-ui.css"],

@@ -1,5 +1,5 @@
 <template>
-  <ClientOnly>
+  <ClientOnly v-if="$route.path !== '/playground'">
     <AppHeader />
   </ClientOnly>
   <Transition name="fade">

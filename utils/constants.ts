@@ -1,33 +1,37 @@
-import { startCase } from 'lodash-es';
+import { startCase } from "lodash-es";
 
 export const siteConfig = {
-  name: 'Go UI',
-  tagline: 'A design system for everyone.',
-  logoSocial: 'https://go-ui.com/img/logo-padded.png',
-  baseUrl: 'https://go-ui.com/',
-  docsRoutePrefix: 'docs/',
+  name: "Go UI",
+  tagline: "A design system for everyone.",
+  logoSocial: "https://go-ui.com/img/logo-padded.png",
+  baseUrl: "https://go-ui.com/",
+  docsRoutePrefix: "docs/",
   repoLink: {
-    url: 'https://github.com/getgoui/go-ui',
-    label: 'Github',
+    url: "https://github.com/getgoui/go-ui",
+    label: "Github",
   },
   darkThemeSwitch: true,
   navbar: {
     main: [
       {
-        url: '/guides/getting-started',
-        label: 'Guides',
+        url: "/guides/getting-started",
+        label: "Guides",
       },
       {
-        url: '/docs/patterns',
-        label: 'Patterns',
+        url: "/docs/patterns",
+        label: "Patterns",
       },
       {
-        url: '/docs/components',
-        label: 'Components',
+        url: "/docs/components",
+        label: "Components",
       },
       {
-        url: '/get-involved',
-        label: 'Get involved',
+        url: "/get-involved",
+        label: "Get involved",
+      },
+      {
+        url: "/playground",
+        label: "Playground",
       },
     ],
   },
@@ -35,54 +39,54 @@ export const siteConfig = {
     isDark: true,
     links: [
       {
-        label: 'Documentation',
+        label: "Documentation",
         children: [
           {
-            label: 'Patterns',
-            url: '/docs/patterns',
+            label: "Patterns",
+            url: "/docs/patterns",
           },
           {
-            label: 'Components',
-            url: '/docs/components',
+            label: "Components",
+            url: "/docs/components",
           },
         ],
       },
       {
-        label: 'Get involved',
+        label: "Get involved",
         children: [
           {
-            label: 'Bug report',
-            url: '/get-involved/bug-report',
+            label: "Bug report",
+            url: "/get-involved/bug-report",
           },
           {
-            label: 'Feature request',
-            url: '/get-involved/feature-request',
+            label: "Feature request",
+            url: "/get-involved/feature-request",
           },
           {
-            label: 'Development guide',
-            url: '/get-involved/development-guide',
+            label: "Development guide",
+            url: "/get-involved/development-guide",
           },
         ],
       },
       {
-        label: 'Community',
+        label: "Community",
         children: [
           {
-            label: 'Discord',
-            url: 'https://discord.gg/g7cuQAdPfS',
+            label: "Discord",
+            url: "https://discord.gg/g7cuQAdPfS",
           },
           {
-            label: 'Twitter',
-            url: 'https://twitter.com/getgoui',
+            label: "Twitter",
+            url: "https://twitter.com/getgoui",
           },
         ],
       },
       {
-        label: 'More',
+        label: "More",
         children: [
           {
-            label: 'GitHub',
-            url: 'https://github.com/getgoui/go-ui',
+            label: "GitHub",
+            url: "https://github.com/getgoui/go-ui",
           },
         ],
       },
@@ -95,36 +99,36 @@ export const siteConfig = {
   },
   algolia: {
     // The application ID provided by Algolia
-    appId: 'HNTM91YDD1',
+    appId: "HNTM91YDD1",
     // Public API key: it is safe to commit it
-    apiKey: 'ab1e5977dd71b391791fd44a83fe80ef',
-    indexName: 'go-ui',
+    apiKey: "ab1e5977dd71b391791fd44a83fe80ef",
+    indexName: "go-ui",
   },
   sidebar: {
-    componentPrefix: 'go-',
+    componentPrefix: "go-",
     /**
      * Convert tag to human-friendly label, default: [startCase](https://lodash.com/docs/4.17.15#startCase)
      * @param tag component tag
      */
     tagToLabel(tag: string): string {
-      return startCase(tag.replace(this.componentPrefix, ''));
+      return startCase(tag.replace(this.componentPrefix, ""));
     },
   },
   demo: {
     head: `<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />`,
-    styles: ['/assets/demo/build/go-ui.css'],
+    styles: ["/assets/demo/build/go-ui.css"],
     scripts: [
       {
-        src: '/assets/demo/build/go-ui.esm.js',
+        src: "/assets/demo/build/go-ui.esm.js",
         attrs: 'type="module"',
       },
       {
-        src: '/assets/demo/build/go-ui.js',
-        attrs: 'nomodule',
+        src: "/assets/demo/build/go-ui.js",
+        attrs: "nomodule",
       },
     ],
   },
   social: {
-    twitter: '@getgoui',
+    twitter: "@getgoui",
   },
 };
