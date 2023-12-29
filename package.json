@@ -11,7 +11,7 @@
     "watch.ia": "node ./bin/build-ia.js --watch"
   },
   "dependencies": {
-    "@go-ui/vue": "latest"
+    "@go-ui/vue": "^1.33.17"
   },
   "devDependencies": {
     "@go-ui/core": "latest",
