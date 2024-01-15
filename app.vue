@@ -3,7 +3,9 @@
     <AppHeader />
   </ClientOnly>
   <Transition name="fade">
-    <NuxtPage />
+    <div>
+      <NuxtPage />
+    </div>
   </Transition>
 </template>
 

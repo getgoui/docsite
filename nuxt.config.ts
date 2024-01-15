@@ -53,4 +53,8 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
+  modules: ["nuxt-gtag"],
+  gtag: {
+    id: "G-DJD52PVDG9",
+  },
 });

@@ -11,7 +11,7 @@
     "watch.ia": "node ./bin/build-ia.js --watch"
   },
   "dependencies": {
-    "@go-ui/vue": "^1.33.17"
+    "@go-ui/vue": "latest"
   },
   "devDependencies": {
     "@go-ui/core": "latest",
@@ -26,6 +26,7 @@
     "markdown-it-title": "^4.0.0",
     "nanospinner": "^1.1.0",
     "nuxt": "^3.8.1",
+    "nuxt-gtag": "^1.1.2",
     "sass": "^1.69.5",
     "typescript": "^5.2.2",
     "vue": "^3.3.8",
