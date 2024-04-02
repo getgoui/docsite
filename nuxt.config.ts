@@ -57,4 +57,5 @@ export default defineNuxtConfig({
   gtag: {
     id: "G-DJD52PVDG9",
   },
+  plugins: ["~/plugins/go-ui.client.ts"],
 });

@@ -79,7 +79,7 @@
         ></div>
       </div>
 
-      <go-main-nav slot="main-nav" :items="navItems"></go-main-nav>
+      <GoNavBar slot="main-nav" :items="navItems"></GoNavBar>
     </GoHeaderBar>
   </header>
 </template>
@@ -90,9 +90,9 @@ import {
   GoHeaderBar,
   GoButton,
   GoIcon,
-  GoMainNav,
   GoGovAuLogo,
   GoDarkMode,
+  GoNavBar,
 } from "@go-ui/vue";
 
 const repoLinkProps = {

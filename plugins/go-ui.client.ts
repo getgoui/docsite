@@ -1,5 +1,6 @@
-import { ComponentLibrary } from '@go-ui/vue';
+import { GoUi } from "@go-ui/vue";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  nuxtApp.vueApp.use(ComponentLibrary);
+  // @ts-ignore
+  nuxtApp.vueApp.use(GoUi);
 });
