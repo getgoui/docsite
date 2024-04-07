@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "build": "npm run build.ia && nuxt build",
-    "dev": "nuxt dev",
+    "dev": "npm run build.ia && nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
